@@ -85,7 +85,6 @@ class Api():
                 headers={
                     'referer': f'{self.url}{self.channel}/{self.post}',
                     'user-agent': random_user_agent,   # ---------- changes here -------------
-                    'Authorization': 'Bearer 7048136193:AAFvz2mKEq5JM8V3UTVLYltbeVAS90hgiwE',
                     'language': 'en-US,en;q=0.9',
                     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
                     'accept-encoding': 'gzip, deflate, br',
