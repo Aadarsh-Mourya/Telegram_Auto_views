@@ -112,7 +112,6 @@ class Api():
                     'referer': f'https://t.me/{self.channel}/{self.post}?embed=1&mode=tme',
                     'user-agent': random_user_agent,    # ---------- changes here -------------
                     'x-requested-with': 'XMLHttpRequest',
-                    'Authorization': 'Bearer 7048136193:AAFvz2mKEq5JM8V3UTVLYltbeVAS90hgiwE'
                 },
                 proxies={
                     'http': f'{proxy_type}://{proxy}', 
